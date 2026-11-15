@@ -59,7 +59,7 @@ Bee Haven/
 │
 ├── 3. docs/
 │   ├── pipeline.png
-│   └── WIP.png
+│   └── WIP_III.png
 │
 └── README.md
 ```
