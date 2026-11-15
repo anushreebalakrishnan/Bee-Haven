@@ -16,7 +16,7 @@ Everything moves through the usual three medallion layers:
 
 ## How the pipeline runs
 
-![Pipeline overview](3.%20docs/pipeline.png)
+![Pipeline overview](pipeline_final.png)
 
 **Bronze.** New hive files land in `bronze/new`. An Azure Data Factory pipeline picks them up with Get Metadata and a ForEach loop, uses dynamic content to route each file, and moves the originals to `bronze/archive` once they are handed over.
 
